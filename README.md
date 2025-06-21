@@ -34,5 +34,58 @@ A console-based Inventory Management System developed in **Java** using **Object
 
 ---
 
-## 🧱 Project Structure
+ ## 🧱 Project Structure 
+```
+InventoryManager/ 
+├── Product.java // Product data model 
+├── Inventory.java // Inventory logic (CRUD operations) 
+└── Main.java // Console UI and application entry point  
+```
+---
+
+## 🧪 Sample Test Cases
+
+| Scenario                  | Expected Output              |
+|--------------------------|------------------------------|
+| Add Product               | ✅ Product added successfully |
+| View Products             | 📋 List of products           |
+| Update Product (valid ID) | ✅ Product updated            |
+| Update Product (invalid)  | ❌ Product not found          |
+| Delete Product            | 🗑️ Product deleted             |
+| Low Stock Alert           | ⚠️ Show all low stock items   |
+
+---
+
+## 🔧 How to Run
+
+1. Clone the repo or copy source files into your IDE
+2. Compile and run `Main.java`
+3. Follow the menu instructions in the console
+
+---
+
+## 📈 Future Enhancements (Optional)
+
+- Add file storage (CSV or JSON)
+- Integrate with database (JDBC or MySQL)
+- Implement GUI using Swing or JavaFX
+- Role-based login system (Admin/User)
+- Export product reports as PDF or Excel
+
+---
+
+## 📄 License
+
+This project is open-source and free to use for educational and personal purposes.
+
+---
+
+## 🙋‍♂️ Author
+
+**Ujjwal Gupta**  
+Beginner Java Developer | Backend Enthusiast  
+Connect: [LinkedIn](https://www.linkedin.com/in/ujjwalgupta2023/) | [GitHub](https://github.com/ujjwalgupta2023)
+
+---
+
 
