@@ -9,7 +9,7 @@ A console-based Inventory Management System developed in **Java** using **Object
 - **Java SE (JDK 8+)**
 - **ArrayList** for in-memory storage
 - **Scanner** for user input
-- IDE: IntelliJ / Eclipse / VS Code
+- IDE: VS Code
 
 ---
 
